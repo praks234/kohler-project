@@ -1,0 +1,8 @@
+body {
+	background-color: red;
+	font-size: 12px;
+}
+
+@import 'banner-desktop.scss';
+@import 'banner-tablet.scss';
+@import 'banner-mobile.scss';

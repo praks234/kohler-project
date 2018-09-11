@@ -1,0 +1,99 @@
+body {
+  background-color: red;
+  font-size: 12px; }
+
+#banner-desktop-device {
+  display: block;
+  width: 300px;
+  height: 250px;
+  box-sizing: content-box;
+  margin: auto;
+  border: 1px solid black;
+  overflow: hidden;
+  animation: animater 200s ease-in-out 10s; }
+
+.banner-slide {
+  display: none; }
+
+.w3-animate-fading {
+  animation-delay: 40s; }
+
+@keyframes animater {
+  0% {
+    right: -300px;
+    opacity: 1; }
+  50% {
+    right: 0px;
+    opacity: 1; } }
+
+.w3-animate-right {
+  position: relative;
+  animation: animateright 3s ease-in-out; }
+
+@keyframes animateright {
+  0% {
+    right: -300px;
+    opacity: 0; }
+  50% {
+    right: 0px;
+    opacity: 1; } }
+
+.w3-animate-slow-right {
+  position: relative;
+  animation: animateslowright 3s ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes animateslowright {
+  0% {
+    right: -200px; }
+  40% {
+    right: 0px; }
+  100% {
+    right: 300px; } }
+
+.w3-animate-1-right {
+  position: relative;
+  animation: animateslowright1 3s ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes animateslowright1 {
+  0% {
+    right: -300px; }
+  40% {
+    right: 0px; } }
+
+.w3-animate-zoom-right {
+  position: relative;
+  animation: animatezoomright 3s ease-in-out; }
+
+@keyframes animatezoomright {
+  0% {
+    transform: scale(1);
+    opacity: 0.5; }
+  50% {
+    transform: scale(1.5);
+    opacity: 1; } }
+
+#banner-tablet-device {
+  display: block;
+  width: 798px;
+  height: 90px;
+  box-sizing: content-box; }
+  #banner-tablet-device .banner-item {
+    background-color: #f9f9f9;
+    justify-content: space-around;
+    height: 90px;
+    padding: 10px; }
+  #banner-tablet-device .banner-item-name {
+    text-align: center; }
+  #banner-tablet-device .banner-item-style {
+    text-align: center;
+    font-size: 20px; }
+  #banner-tablet-device .banner-item-image {
+    text-align: center; }
+    #banner-tablet-device .banner-item-image img {
+      width: 40%; }
+  #banner-tablet-device .pdrt-0 {
+    padding-right: 0; }
+  #banner-tablet-device .pdlt-4 {
+    padding-left: 4px; }

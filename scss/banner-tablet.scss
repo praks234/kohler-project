@@ -1,0 +1,36 @@
+#banner-tablet-device {
+  display: block;
+  width: 798px;
+  height: 90px;
+  box-sizing: content-box;
+
+  .banner-item {
+    background-color: #f9f9f9;
+	justify-content: space-around;
+	height: 90px;
+	padding: 10px;
+  }
+  .banner-item-name {
+	text-align: center
+  }
+  .banner-item-style {
+	text-align: center;
+	font-size:20px;
+  }
+
+  .banner-item-image{
+	  text-align: center;
+	  img{
+		  width: 40%;
+	  }
+  }
+
+  .pdrt-0{
+	padding-right: 0;
+  }
+
+  .pdlt-4{
+	padding-left: 4px;
+  }
+
+}
